@@ -3,12 +3,12 @@ import json
 from SuperJob.sjob import payload_sj
 from class_API import HeadHunter, SuperJob, Vacancy
 from hh.hh import payload_hh
-from payload import Payload
+
 
 hh_api = HeadHunter()
 superjob_api = SuperJob()
 vacancy_sort = Vacancy()
-payload = Payload()
+
 
 def platform():
     platforms = ["HeadHunter", "SuperJob", 'Искать на всех платформах']
